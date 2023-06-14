@@ -1,0 +1,38 @@
+main{
+  padding-top: 10em;
+
+  > div[class="site-max-width"]{
+    @media screen and (min-width: 850px) {
+      display: grid;
+      grid-template-columns: auto auto;
+      column-gap: 10em;
+      row-gap: 7em;
+    }
+
+  }
+
+  div[class='card']{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p{
+      padding: 0 1em;
+    }
+
+    + div[class='card']{
+      margin-top: 6em;
+
+      @media screen and (min-width: 850px) {
+        margin-top: 0;
+      }
+    }
+  }
+
+  h2{
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+  }
+}

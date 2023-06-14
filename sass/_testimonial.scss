@@ -1,0 +1,57 @@
+.testimonials{
+  position: relative;
+  padding-top: 10em;
+  padding-bottom: 10em;
+
+  .quote{
+    position: absolute;
+    width: 21px;
+    top: rem(126);
+
+    @media screen and (min-width: 850px){
+      width: auto;
+      top: rem(104);
+      left: rem(74);
+    }
+  }
+
+  &__wrapper{
+    @media screen and (min-width: 850px) {
+      position: relative;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      column-gap: 31px;
+    }
+  }
+  .testimonial{
+    background-color: $light-blue;
+    border-radius: 8px;
+    padding: 2em;
+
+    + .testimonial{
+      margin-top: 2em;
+
+      @media screen and (min-width: 850px){
+        margin-top: 0;
+      }
+    }
+
+    > div{
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      justify-content: start;
+      column-gap: 1em;
+    }
+
+    img{
+      width: 22px;
+      clip-path: circle();
+    }
+
+    p{
+      grid-column: 2/3;
+      margin-bottom: 1.5em;
+    }
+  }
+}

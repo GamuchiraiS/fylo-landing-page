@@ -1,0 +1,38 @@
+.prefooter{
+  background-color: $greyish-blue;
+  border-radius: 16px;
+  margin-top: 10em;
+  padding: 2em;
+  margin-bottom: rem(-225);
+  text-align: center;
+
+  @media screen and (min-width: 850px){
+    margin-bottom: rem(-192);
+    max-width: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p{
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+
+  input{
+    border-radius: 22px;
+    border: none;
+    padding: 1em 2em;
+    margin-bottom: 2em;
+
+    @media screen and (min-width: 850px){
+      margin-right: 2em;
+      width: 50%;
+    }
+  }
+
+  button{
+    @media screen and (min-width: 850px){
+      padding: 1em 2em;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+/*
+------------------------------------Colours-----------------------------------------
+*/
+$primary-blue: hsl(218, 28%, 13%); //intro and email sign up bg
+$greyish-blue: hsl(217, 28%, 15%); //main bg
+$dark-blue: hsl(216, 53%, 9%); //footer bg
+$light-blue: hsl(219, 30%, 18%); //testimonials bg
+
+$cyan: hsl(176, 68%, 64%); //inside call-to-action gradient
+$blue: hsl(198, 60%, 50%); //inside call-to-action gradient
+$light-red: hsl(0, 100%, 63%);
+$white: hsl(0, 0%, 100%);
+
+/*
+------------------------------------Typography-----------------------------------------
+*/
+//imports
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+$body-font-family: 'Open Sans', sans-serif;
+$body-font-weight-400: 400;
+$body-font-weight-700: 700;
+$body-font-size: 0.875em;
+$font-size-h2: 1.25em;
+
+$headings-font-family: 'Raleway', sans-serif;
+$headings-font-weight-400: 400;
+$headings-font-weight-700: 700;
+
