@@ -1,10 +1,10 @@
 .hero{
-  background: $greyish-blue url('/images/bg-curvy-mobile.svg') no-repeat bottom;
+  background: $greyish-blue url('images/bg-curvy-mobile.svg') no-repeat bottom;
   background-size: contain;
   padding-top: 3em;
 
   @media (min-width: 1800px){
-    background: $greyish-blue url('/images/bg-curvy-desktop.svg') no-repeat bottom;
+    background: $greyish-blue url('images/bg-curvy-desktop.svg') no-repeat bottom;
     background-size: contain;
   }
 

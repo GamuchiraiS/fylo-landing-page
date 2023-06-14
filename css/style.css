@@ -192,13 +192,13 @@ footer .cols .fa-brands:hover {
 }
 
 .hero {
-  background: hsl(217, 28%, 15%) url("/images/bg-curvy-mobile.svg") no-repeat bottom;
+  background: hsl(217, 28%, 15%) url("images/bg-curvy-mobile.svg") no-repeat bottom;
   background-size: contain;
   padding-top: 3em;
 }
 @media (min-width: 1800px) {
   .hero {
-    background: hsl(217, 28%, 15%) url("/images/bg-curvy-desktop.svg") no-repeat bottom;
+    background: hsl(217, 28%, 15%) url("images/bg-curvy-desktop.svg") no-repeat bottom;
     background-size: contain;
   }
 }
