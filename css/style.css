@@ -192,13 +192,13 @@ footer .cols .fa-brands:hover {
 }
 
 .hero {
-  background: hsl(217, 28%, 15%) url("images/bg-curvy-mobile.svg") no-repeat bottom;
+  background: hsl(217, 28%, 15%) url("/images/bg-curvy-mobile.svg") no-repeat bottom;
   background-size: contain;
   padding-top: 3em;
 }
 @media (min-width: 1800px) {
   .hero {
-    background: hsl(217, 28%, 15%) url("images/bg-curvy-desktop.svg") no-repeat bottom;
+    background: hsl(217, 28%, 15%) url("/images/bg-curvy-desktop.svg") no-repeat bottom;
     background-size: contain;
   }
 }
@@ -214,36 +214,36 @@ footer .cols .fa-brands:hover {
   margin-top: 2.5em;
 }
 
-main {
+.main {
   padding-top: 10em;
 }
 @media screen and (min-width: 850px) {
-  main > div[class=site-max-width] {
+  .main > div[class=site-max-width] {
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 10em;
     row-gap: 7em;
   }
 }
-main div[class=card] {
+.main div[class=card] {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-main div[class=card] p {
+.main div[class=card] p {
   padding: 0 1em;
 }
-main div[class=card] + div[class=card] {
+.main div[class=card] + div[class=card] {
   margin-top: 6em;
 }
 @media screen and (min-width: 850px) {
-  main div[class=card] + div[class=card] {
+  .main div[class=card] + div[class=card] {
     margin-top: 0;
   }
 }
-main h2 {
+.main h2 {
   margin-top: 2em;
   margin-bottom: 0.5em;
 }
