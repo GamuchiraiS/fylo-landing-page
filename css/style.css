@@ -38,7 +38,7 @@ img {
   height: auto;
 }
 
-main, .cta, .testimonials {
+.main, .cta, .testimonials {
   background-color: hsl(218, 28%, 13%);
 }
 
